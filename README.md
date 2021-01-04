@@ -44,16 +44,13 @@ Final Task. Service for indexing Internet pages and searching for results.
 
 Пример payload задачи на обкачку, которую может ожидать краулер из брокера сообщений:
 
-{
-
     {
         “type”: “index”,
         “index”: {
             “domain”: “python.org”,
             “https”: true
         }
-    }  
-}
+    }
 
 ## Общение микросервисов
 Взаимодействие между микросервисами должно происходить через брокер сообщений RabbitMQ. Над брокером необходимо реализовать интерфейс, аналогичный http запросам.
