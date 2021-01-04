@@ -46,16 +46,13 @@ Final Task. Service for indexing Internet pages and searching for results.
 
 {
 
-    “type”: “index”,
-    
-    “index”: {
-    
-        “domain”: “python.org”,
-        
-        “https”: true
-        
-    }
-    
+    {
+        “type”: “index”,
+        “index”: {
+            “domain”: “python.org”,
+            “https”: true
+        }
+    }  
 }
 
 ## Общение микросервисов
